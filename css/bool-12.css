@@ -1,16 +1,12 @@
 /* debug  */
 .container {
-    height: 100px;
-    border: 1px solid blue; 
+    height: 160px;
 }
 [class*=col-]{
-    height: 95px;
+    height: 160px;
     border: 1px solid black;
     background-color: lightgreen;
 }
-
-
-
 /* /debug  */
 * {
     box-sizing: border-box;
@@ -18,7 +14,7 @@
     padding: 0;
 }
 .container {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 .container::after {
@@ -65,4 +61,41 @@
     width: calc((100% / 12) * 12)
 }
 
+/* offset margin */
 
+.col-offset-1 {
+    width: calc((100% / 12) * 1)
+}
+.col-offset-2 {
+    width: calc((100% / 12) * 2)
+}
+.col-offset-3 {
+    width: calc((100% / 12) * 3)
+}
+.col-offset-4 {
+    width: calc((100% / 12) * 4)
+}
+.col-offset-5 {
+    width: calc((100% / 12) * 5)
+}
+.col-offset-6 {
+    width: calc((100% / 12) * 6)
+}
+.col-offset-7 {
+    width: calc((100% / 12) * 7)
+}
+.col-offset-8 {
+    width: calc((100% / 12) * 8)
+}
+.col-offset-9 {
+    width: calc((100% / 12) * 9)
+}
+.col-offset-10 {
+    width: calc((100% / 12) * 10)
+}
+.col-offset-11 {
+    width: calc((100% / 12) * 11)
+}
+.container2 {
+    margin-top: 20px;
+}
