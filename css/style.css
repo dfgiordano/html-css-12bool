@@ -3,3 +3,10 @@
     vertical-align: middle;
     line-height: 150px;
 }
+.last .col-6,
+.last .col-2,
+.last .col-8  {
+    color:white;
+    border-color: white;
+    background-color: darkgreen;
+}
